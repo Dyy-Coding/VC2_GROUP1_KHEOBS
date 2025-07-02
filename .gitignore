@@ -1,0 +1,50 @@
+# WordPress core files (do not track)
+wp-admin/
+wp-includes/
+license.txt
+readme.html
+wp-config-sample.php
+xmlrpc.php
+
+# Ignore wp-content EXCEPT custom themes/plugins
+wp-content/*
+!wp-content/themes/
+!wp-content/plugins/
+
+# Ignore default themes and plugins
+wp-content/themes/twenty*/
+wp-content/plugins/akismet/
+wp-content/plugins/hello.php
+
+# Ignore uploads and cache (optional)
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+wp-content/mu-plugins/
+
+# System files and IDEs
+.DS_Store
+Thumbs.db
+*.log
+*.sql
+*.sqlite
+*.zip
+
+# Composer and NPM files (optional)
+node_modules/
+vendor/
+.env
+.env.*
+package-lock.json
+yarn.lock
+composer.lock
+
+# OS-specific
+ehthumbs.db
+Icon?
+desktop.ini
+
+# SFTP/FTP config files
+*.sublime-ftp
+*.vscode
